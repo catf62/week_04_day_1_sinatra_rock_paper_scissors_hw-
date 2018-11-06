@@ -23,7 +23,7 @@ class GameLogic
     elsif @player1 == "Paper" && @player2 == "Scissors"
       return "Player 2 Wins!!!"
     else
-      return "Error!"
+      return "Oh noes that's not a recognised hand gesture!"
     end
   end
 
